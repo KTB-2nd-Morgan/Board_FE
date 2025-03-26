@@ -14,6 +14,9 @@ jobs:
   deploy:
     name: Deploy React to S3
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: board-app
 
     steps:
       - name: Checkout code
