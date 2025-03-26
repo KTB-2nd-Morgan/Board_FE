@@ -8,7 +8,7 @@ on:
 env:
   AWS_REGION: ap-northeast-2
   BUCKET_NAME: www.morgan.o-r.kr
-  DIST_DIR: build
+  DIST_DIR: dist
 
 jobs:
   deploy:
