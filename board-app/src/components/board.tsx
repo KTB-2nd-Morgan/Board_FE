@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './Board.css';
+import './board.css';
 import { motion, AnimatePresence } from "framer-motion";
 
 
