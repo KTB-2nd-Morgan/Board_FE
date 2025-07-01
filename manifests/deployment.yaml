@@ -13,6 +13,8 @@ spec:
       labels:
         app: frontend
     spec:
+      imagePullSecrets:
+        - name: ecr-creds
       containers:
       - name: frontend
         image: 418295722497.dkr.ecr.ap-northeast-2.amazonaws.com/kubeadm/frontend:latest
